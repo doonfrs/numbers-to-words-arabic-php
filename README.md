@@ -40,18 +40,18 @@ echo (NumberToWords::convertNumberAr(1.1, 'ريال سعودي','ريالات س
 echo (NumberToWords::convertNumberAr(1.2, 'ريال سعودي','ريالات سعودية','هللة','هللات')); // => 'ريال سعودي واحد، واثنان هللة
 echo (NumberToWords::convertNumberAr(1.3, 'ريال سعودي','ريالات سعودية','هللة','هللات')); // => 'ريال سعودي واحد، وثلاثة هللات
 echo (NumberToWords::convertNumberAr(1.42, 'ريال سعودي','ريالات سعودية','هللة','هللات')); // => 'ريال سعودي واحد، واثنان وأربعون هللة
-echo (NumberToWords::convertNumberAr(101.15)); // => 'مئة وواحد ريال سعودي ، وخمسة عشر هللة'
-echo (NumberToWords::convertNumberAr(101.16)); // => 'مئة وواحد ريال سعودي ، وستة عشر هللة'
-echo (NumberToWords::convertNumberAr(1001.1)); // => 'ألف وواحد ريال سعودي ، وواحد هللة'
-echo (NumberToWords::convertNumberAr(1001.2)); // => 'ألف وواحد ريال سعودي ، واثنان هللة'
-echo (NumberToWords::convertNumberAr(1095.3)); // => 'ألف وخمسة وتسعون ريال سعودي ، وثلاثة هللات'
-echo (NumberToWords::convertNumberAr(1095.42)); // => 'ألف وخمسة وتسعون ريال سعودي ، واثنان وأربعون هللة'
-echo (NumberToWords::convertNumberAr(10000)); // => 'عشرة آلاف ريال سعودي '
-echo (NumberToWords::convertNumberAr(10001)); // => 'عشرة آلاف وواحد ريال سعودي '
-echo (NumberToWords::convertNumberAr(10011)); // => 'عشرة آلاف وأحد عشر ريال سعودي '
-echo (NumberToWords::convertNumberAr(11321)); // => 'أحد عشر ألف وثلاثمئة وواحد وعشرون ريال سعودي '
-echo (NumberToWords::convertNumberAr(1000000)); // => 'مليون ريال سعودي '
-echo (NumberToWords::convertNumberAr(1000000.23)); // => 'مليون ريال سعودي ، وثلاثة وعشرون هللة'
-echo (NumberToWords::convertNumberAr(1922140.132)); // => 'مليون وتسعمئة واثنان وعشرون ألف ومئة وأربعون ريال سعودي ، وثلاثة عشر هللة'
+echo (NumberToWords::convertNumberAr(101.15, 'ريال سعودي', 'ريالات سعودية', 'هللة', 'هللات')); // => 'مئة وواحد ريال سعودي ، وخمسة عشر هللة'
+echo (NumberToWords::convertNumberAr(101.16, 'ريال سعودي', 'ريالات سعودية', 'هللة', 'هللات')); // => 'مئة وواحد ريال سعودي ، وستة عشر هللة'
+echo (NumberToWords::convertNumberAr(1001.1, 'ريال سعودي', 'ريالات سعودية', 'هللة', 'هللات')); // => 'ألف وواحد ريال سعودي ، وواحد هللة'
+echo (NumberToWords::convertNumberAr(1001.2, 'ريال سعودي', 'ريالات سعودية', 'هللة', 'هللات')); // => 'ألف وواحد ريال سعودي ، واثنان هللة'
+echo (NumberToWords::convertNumberAr(1095.3, 'ريال سعودي', 'ريالات سعودية', 'هللة', 'هللات')); // => 'ألف وخمسة وتسعون ريال سعودي ، وثلاثة هللات'
+echo (NumberToWords::convertNumberAr(1095.42, 'ريال سعودي', 'ريالات سعودية', 'هللة', 'هللات')); // => 'ألف وخمسة وتسعون ريال سعودي ، واثنان وأربعون هللة'
+echo (NumberToWords::convertNumberAr(10000, 'ريال سعودي', 'ريالات سعودية', 'هللة', 'هللات')); // => 'عشرة آلاف ريال سعودي '
+echo (NumberToWords::convertNumberAr(10001, 'ريال سعودي', 'ريالات سعودية', 'هللة', 'هللات')); // => 'عشرة آلاف وواحد ريال سعودي '
+echo (NumberToWords::convertNumberAr(10011, 'ريال سعودي', 'ريالات سعودية', 'هللة', 'هللات')); // => 'عشرة آلاف وأحد عشر ريال سعودي '
+echo (NumberToWords::convertNumberAr(11321, 'ريال سعودي', 'ريالات سعودية', 'هللة', 'هللات')); // => 'أحد عشر ألف وثلاثمئة وواحد وعشرون ريال سعودي '
+echo (NumberToWords::convertNumberAr(1000000, 'ريال سعودي', 'ريالات سعودية', 'هللة', 'هللات')); // => 'مليون ريال سعودي '
+echo (NumberToWords::convertNumberAr(1000000.23, 'ريال سعودي', 'ريالات سعودية', 'هللة', 'هللات')); // => 'مليون ريال سعودي ، وثلاثة وعشرون هللة'
+echo (NumberToWords::convertNumberAr(1922140.132, 'ريال سعودي', 'ريالات سعودية', 'هللة', 'هللات')); // => 'مليون وتسعمئة واثنان وعشرون ألف ومئة وأربعون ريال سعودي ، وثلاثة عشر هللة'
 
 ```
