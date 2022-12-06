@@ -157,7 +157,7 @@ class NumberToWords
                 }
                 switch ($place) {
                     case 2:
-                        if ($number >= 3 and $number <= 10) {
+                        if ($number >= 3 && $number <= 10) {
                             $return .= ' آلاف';
                         } else {
                             $return .= ' ألف';
@@ -165,7 +165,7 @@ class NumberToWords
 
                         break;
                     case 3:
-                        if ($number >= 3 and $number <= 10) {
+                        if ($number >= 3 && $number <= 10) {
                             $return .= ' ملايين';
                         } else {
                             $return .= ' مليون';
@@ -173,7 +173,7 @@ class NumberToWords
 
                         break;
                     case 4:
-                        if ($number >= 3 and $number <= 10) {
+                        if ($number >= 3 && $number <= 10) {
                             $return .= ' مليارات';
                         } else {
                             $return .= ' مليار';
