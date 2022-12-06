@@ -1,4 +1,4 @@
-# NumberToWords arabic
+# NumberToWords in Arabic for PHP
 
 I have the class already from here: https://www.ar-php.org/ar-example-Numbers-php-arabic.html
 * I added the currency / fraction
